@@ -22,6 +22,7 @@ const App=()=>
         <FlatList keyExtractor={item=>item.id}
         data={product_data}
         renderItem={NewsCard}
+        numColumns={2}
         />
       </View>
     </SafeAreaView>
